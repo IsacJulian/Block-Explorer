@@ -1,0 +1,75 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Playwrite+BE+VLG:wght@100..400&family=Playwrite+CO:wght@100..400&family=Playwrite+DK+Loopet:wght@100..400&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sen:wght@400..800&family=Tenor+Sans&display=swap"
+        rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Lexend+Deca:wght@100..900&family=Outfit:wght@100..900&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+    <title>Block Explorer</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+
+    <script type="module" src="../transactionDetails.js" defer></script>
+
+    <meta name="description" content="">
+
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" href="/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="icon.png">
+
+    <link rel="manifest" href="site.webmanifest">
+    <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+    <main>
+        <section class="page1">
+            <header>
+                <h1 class="logoFont">:: Block Explorer ::</h1>
+                <nav>
+                    <button class="menu-button">
+                        <span class="menu-icon"></span>
+                    </button>
+                    <aside class="full-screen-menu">
+
+                        <ul class="nav-list left">
+                            <!-- <li><a href="/src/index.html">Home</a></li> -->
+                            <li><a href="/src/pages/transaction.html">Transaction</a></li>
+                            <li><a href="/src/pages/blocks.html">Blocks</a></li>
+                            <!-- <li><a href="/src/pages/create-transactions.html">Transaction</a></li> -->
+                        </ul>
+                        <ul class="nav-list right">
+                            <li><a href="/src/pages/transactionDetails.html">Transaction Details</a></li>
+                            <!-- <li><a href="../src/pages/transactions.html">Transactions</a></li> -->
+                        </ul>
+
+                        <ul class="nav-list mobile">
+                            <!-- <li><a href="/src/index.html">Home</a></li> -->
+                            <li><a href="/src/pages/transaction.html">Transaction</a></li>
+                            <li><a href="/src/pages/blocks.html">Blocks</a></li>
+                            <li><a href="/src/pages/transactionDetails.html">Transaction Details</a></li>
+                        </ul>
+
+                    </aside>
+                </nav>
+            </header>
+            <section class="pageSection">
+                <div class=box>
+                    <h4>Transaction Details:</h4>
+                    <div id="transactionDetails"></div>
+                </div>
+            </section>
+        </section>
+    </main>
+</body>
+</html>
